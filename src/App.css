@@ -1,0 +1,170 @@
+/* .imgAnimation{
+    position: relative;
+    margin-right: auto;
+    animation: cycleAnimation 10s infinite;
+    
+}
+@keyframes cycleAnimation{
+   0%{
+    transform: translateX(-250px);
+    
+   }
+   100%{
+    transform: translateX(1000px);
+    
+   }
+} */
+body{
+  width: fit-content;
+}
+scroll::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 10px;
+  
+  background-color: #f5f5f5;
+}
+
+.scroll::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #808080;
+  border-radius: 100px;
+}
+#highlight{
+    color: #FF6000;
+}
+.box{
+  background-image: url('./assest/bgmb.png');
+  background-size: cover;
+}
+#mba{
+  color: #EE2B7B;
+  
+}
+.box2{
+  background-image: url('./assest/bg2.png');
+  background-size: cover;
+  background-image: no-repeat;
+}
+.box3{
+  background-image: url('./assest/aboutbg.png');
+  background-size: cover;
+}
+.box4{
+  background-image: url('https://www.mbachaiwala.com/wp-content/uploads/2022/10/Group-9.png');
+ background-size: cover;
+}
+.box5{
+  background-image: url('https://www.mbachaiwala.com/wp-content/uploads/2022/10/fefe-1024x460.png');
+  background-size: cover;
+}
+#input-field{
+   width: 100%;
+   border: 1px solid #ced4da;
+   height: 44px;
+   font-size: 14px;
+   background: transparent;
+   background-color: transparent;
+   color: #495057;
+}
+#label-class{
+  font-size: 12px;
+  font-weight: 500;
+  font-family: poppins;
+}
+#form-span{
+  color:red;
+}
+.box6{
+  background-image: url('https://www.mbachaiwala.com/wp-content/uploads/2022/10/Group-17.png');
+  background-position: 0px 73vh;
+  background-repeat: no-repeat;
+  background-size: 140% auto;
+}
+#about-text{
+  color: yellow;
+}
+.box7
+{
+  background-image: linear-gradient(120deg, #FFEE00 0%, #FFB800 100%);
+}
+.box8{
+  background-image: url('https://www.mbachaiwala.com/wp-content/uploads/2022/10/wsdwdd.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.fade-in-left {
+	-webkit-animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+.abt-txt
+{
+  color:gray;
+}
+.footer
+{
+  background-color: #EE2B7B;
+  background-image: url('http://www.mbachaiwala.com/wp-content/uploads/2023/04/MBA-MAIN-BG-Pink.png');
+  background-blend-mode: luminosity;
+}
+.hd-1
+{
+  font-size: 29px;
+  color: #555555;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.hd-2
+{
+  font-size: 40px;
+  font-weight: 800;
+  color: #ee2a7b;
+  text-align: center;
+  margin-top: 0px;
+}
+.home
+{
+  background-color: #EE2B7B;
+  background-image: url('http://www.mbachaiwala.com/wp-content/uploads/2023/04/MBA-MAIN-BG-Pink.png');
+  background-blend-mode: luminosity;
+}
+.main-image
+{
+  animation: 1s move;
+}
+@keyframes move {
+  0%
+  {
+    transform: translateY(10px);
+  }
+  10%{
+    transform: translateY(-10px);
+  }
+}
